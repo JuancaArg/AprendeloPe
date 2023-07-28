@@ -593,7 +593,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #571c7d;
+    color: #ff3131;
     padding-left: 30px;
 }
 .menu_text{
@@ -614,7 +614,7 @@ button {
     color: #0c0c0c;
 }
 .menu_text li a:hover{
-    color: #571c7d;
+    color: #ff3131;
 }
 .Recent_text{
     width: 100%;
