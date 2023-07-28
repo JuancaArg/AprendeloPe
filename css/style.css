@@ -221,10 +221,24 @@ button {
 .padding_0{
      padding: 0px;
 }
+
+/* Estilos para el encabezado */
 .header_section {
     width: 100%;
     float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #ffffff; /* Ajusta el color de fondo según tus preferencias */
+    /* Agrega otros estilos como altura, color de texto, etc. según tus necesidades */
 }
+
+/* Agrega un margen superior al contenido para evitar superposición */
+.content {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu encabezado */
+}
+
 .logo{
     width: 20%;
     float: left;
@@ -670,3 +684,11 @@ button {
 .margin_top0{
     margin-top: 90px;
 }
+.whatsapp-button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 70px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: 40px; /* Ajusta la altura según el tamaño de tu imagen */
+}
+
