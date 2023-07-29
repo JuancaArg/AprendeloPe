@@ -292,19 +292,21 @@ button {
     float: left;
 }
 .contact_bt {
-    width: 300px;
-    float: left;
+    display: block;
+    justify-content: center;
     margin-top: 30px;
 }
+
 .contact_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
+    display: inline-block;
+    font-size: 20px;
     color: #ffffff;
     background-color: #ff3131;
-    padding: 10px 0px;
-    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    white-space: nowrap; /* Evita que el contenido haga un salto de línea */
 }
+
 .contact_bt a:hover {
     color: #ffffff;
     background-color: #000;
